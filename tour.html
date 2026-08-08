@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tour Dates · OneOkRock Fan</title>
+  <meta name="description" content="Upcoming OneOkRock tour dates and ticket links." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark"><img src="assets/img/logo.svg" alt="OneOkRock logo"></span>
+        <span class="brand-name">OneOkRock<span class="brand-sub">Fan</span></span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" id="siteNav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="discography.html">Discography</a>
+        <a href="tour.html" class="active">Tour</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Live · 2026</p>
+        <h1>Tour Dates</h1>
+        <p class="hero-lead">Catch OneOkRock live. Times shown in local venue time. Fan-compiled — verify on official channels.</p>
+      </div>
+    </section>
+
+    <section class="container section">
+      <div class="tour-filters" role="tablist" aria-label="Tour region filter">
+        <button class="chip active" data-region="all">All</button>
+        <button class="chip" data-region="asia">Asia</button>
+        <button class="chip" data-region="europe">Europe</button>
+        <button class="chip" data-region="namerica">North America</button>
+      </div>
+
+      <table class="tour-table">
+        <thead>
+          <tr><th>Date</th><th>Venue</th><th>City</th><th>Region</th><th class="ta-right">Tickets</th></tr>
+        </thead>
+        <tbody id="tourBody">
+          <tr data-region="asia">
+            <td><strong>Sep 12, 2026</strong></td>
+            <td>Tokyo Dome</td><td>Tokyo, JP</td><td>Asia</td>
+            <td class="ta-right"><a class="btn btn-small" href="#">Tickets</a></td>
+          </tr>
+          <tr data-region="asia">
+            <td><strong>Sep 18, 2026</strong></td>
+            <td>K-Arena Yokohama</td><td>Yokohama, JP</td><td>Asia</td>
+            <td class="ta-right"><a class="btn btn-small" href="#">Tickets</a></td>
+          </tr>
+          <tr data-region="asia">
+            <td><strong>Sep 24, 2026</strong></td>
+            <td>National Stadium</td><td>Singapore</td><td>Asia</td>
+            <td class="ta-right"><a class="btn btn-small" href="#">Tickets</a></td>
+          </tr>
+          <tr data-region="europe">
+            <td><strong>Oct 04, 2026</strong></td>
+            <td>Ziggo Dome</td><td>Amsterdam, NL</td><td>Europe</td>
+            <td class="ta-right"><a class="btn btn-small" href="#">Tickets</a></td>
+          </tr>
+          <tr data-region="europe">
+            <td><strong>Oct 08, 2026</strong></td>
+            <td>Accor Arena</td><td>Paris, FR</td><td>Europe</td>
+            <td class="ta-right"><a class="btn btn-small" href="#">Tickets</a></td>
+          </tr>
+          <tr data-region="europe">
+            <td><strong>Oct 14, 2026</strong></td>
+            <td>Wembley Arena</td><td>London, UK</td><td>Europe</td>
+            <td class="ta-right"><a class="btn btn-small" href="#">Tickets</a></td>
+          </tr>
+          <tr data-region="namerica">
+            <td><strong>Oct 22, 2026</strong></td>
+            <td>Barclays Center</td><td>Brooklyn, NY</td><td>North America</td>
+            <td class="ta-right"><a class="btn btn-small" href="#">Tickets</a></td>
+          </tr>
+          <tr data-region="namerica">
+            <td><strong>Oct 26, 2026</strong></td>
+            <td>The Forum</td><td>Los Angeles, CA</td><td>North America</td>
+            <td class="ta-right"><a class="btn btn-small" href="#">Tickets</a></td>
+          </tr>
+          <tr data-region="namerica">
+            <td><strong>Oct 30, 2026</strong></td>
+            <td>YouTube Theater</td><td>Inglewood, CA</td><td>North America</td>
+            <td class="ta-right"><a class="btn btn-small" href="#">Tickets</a></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p class="muted small">Set times and support acts subject to change. Always confirm with the venue.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p class="brand">
+          <span class="brand-mark">OOR</span>
+          <strong>OneOkRock Fan</strong>
+        </p>
+        <p class="muted">Unofficial fan site. Not affiliated with OneOkRock or their label.</p>
+      </div>
+      <nav class="footer-nav">
+        <a href="about.html">About</a>
+        <a href="discography.html">Discography</a>
+        <a href="tour.html">Tour</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="socials">
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+        <a href="#">Reddit</a>
+        <a href="#">Discord</a>
+        <a href="attribution.html">Image Credits</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <small>© 2026 OneOkRock Fan · Made with ❤ by fans</small>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

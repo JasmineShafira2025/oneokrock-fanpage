@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery · OneOkRock Fan</title>
+  <meta name="description" content="Photo gallery of OneOkRock across tours and albums." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark"><img src="assets/img/logo.svg" alt="OneOkRock logo"></span>
+        <span class="brand-name">OneOkRock<span class="brand-sub">Fan</span></span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" id="siteNav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="discography.html">Discography</a>
+        <a href="tour.html">Tour</a>
+        <a href="gallery.html" class="active">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Photos</p>
+        <h1>Gallery</h1>
+        <p class="hero-lead">A curated collection from tours, promos, and fan meet-ups. Click any photo to enlarge.</p>
+      </div>
+    </section>
+
+    <section class="container section">
+      <div class="gallery" id="gallery">
+        <button class="gallery-item" data-caption="Lucky Strike Live, Hollywood — Oct 2015 (CC BY-SA 4.0, Explicit)">
+          <img src="assets/img/live-lucky-strike.jpg" alt="OneOkRock performing at Lucky Strike Live, Hollywood, 2015">
+        </button>
+        <button class="gallery-item tall" data-caption="Luxury Disease era promo" data-color="2"></button>
+        <button class="gallery-item" data-caption="Dürer Kert, Budapest — May 2019 (CC BY-SA 4.0, Frank Olivér)">
+          <img src="assets/img/budapest-2019.jpg" alt="OneOkRock performing at Dürer Kert, Budapest, 2019">
+        </button>
+        <button class="gallery-item wide" data-caption="Stage wide — Los Angeles Forum" data-color="4"></button>
+        <button class="gallery-item" data-caption="Toru — Back to the Future Hearts Tour, Orlando 2015 (CC BY-SA 4.0, Bonnielou2013)">
+          <img src="assets/img/toru.jpg" alt="Toru performing with OneOkRock, 2015">
+        </button>
+        <button class="gallery-item" data-caption="Ryota — Back to the Future Hearts Tour, Orlando 2015 (CC BY-SA 4.0, Bonnielou2013)">
+          <img src="assets/img/ryota.jpg" alt="Ryota performing with OneOkRock, 2015">
+        </button>
+        <button class="gallery-item" data-caption="Tomoya — Back to the Future Hearts Tour, Orlando 2015 (CC BY-SA 4.0, Bonnielou2013)">
+          <img src="assets/img/tomoya.jpg" alt="Tomoya performing with OneOkRock, 2015">
+        </button>
+        <button class="gallery-item tall" data-caption="Acoustic set, fan event" data-color="2"></button>
+        <button class="gallery-item wide" data-caption="Stage wide — LA Forum" data-color="3"></button>
+      </div>
+    </section>
+  </main>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog">
+    <button class="lightbox-close" aria-label="Close">×</button>
+    <div class="lightbox-stage"></div>
+    <p class="lightbox-caption"></p>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p class="brand">
+          <span class="brand-mark">OOR</span>
+          <strong>OneOkRock Fan</strong>
+        </p>
+        <p class="muted">Unofficial fan site. Not affiliated with OneOkRock or their label.</p>
+      </div>
+      <nav class="footer-nav">
+        <a href="about.html">About</a>
+        <a href="discography.html">Discography</a>
+        <a href="tour.html">Tour</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="socials">
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+        <a href="#">Reddit</a>
+        <a href="#">Discord</a>
+        <a href="attribution.html">Image Credits</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <small>© 2026 OneOkRock Fan · Made with ❤ by fans</small>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

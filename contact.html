@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact · OneOkRock Fan</title>
+  <meta name="description" content="Get in touch with the OneOkRock Fan community." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark"><img src="assets/img/logo.svg" alt="OneOkRock logo"></span>
+        <span class="brand-name">OneOkRock<span class="brand-sub">Fan</span></span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" id="siteNav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="discography.html">Discography</a>
+        <a href="tour.html">Tour</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Say hi</p>
+        <h1>Contact</h1>
+        <p class="hero-lead">Have a tip, a correction, or want to contribute? Send us a message.</p>
+      </div>
+    </section>
+
+    <section class="container section two-col">
+      <div>
+        <h2>Send a message</h2>
+        <form id="contactForm" class="form" novalidate>
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" required minlength="2" />
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" required />
+          </label>
+          <label>
+            <span>Subject</span>
+            <select name="subject" required>
+              <option value="">Choose…</option>
+              <option>Tour update / correction</option>
+              <option>Photo submission</option>
+              <option>Press / collaboration</option>
+              <option>Other</option>
+            </select>
+          </label>
+          <label>
+            <span>Message</span>
+            <textarea name="message" rows="5" required minlength="10"></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary">Send</button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+
+      <aside>
+        <h2>FAQ</h2>
+        <details>
+          <summary>Is this site official?</summary>
+          <p>No — it's a fan-run hub. For official news, check the band's verified channels.</p>
+        </details>
+        <details>
+          <summary>Can I submit photos?</summary>
+          <p>Yes, use the form and select "Photo submission". Credit goes to the photographer.</p>
+        </details>
+        <details>
+          <summary>How are tour dates verified?</summary>
+          <p>We cross-check with official announcements and venue listings. Always confirm with the venue before traveling.</p>
+        </details>
+        <details>
+          <summary>Can I help build the site?</summary>
+          <p>Absolutely — reach out via the form. We're especially looking for translators and regional tour-date contributors.</p>
+        </details>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p class="brand">
+          <span class="brand-mark">OOR</span>
+          <strong>OneOkRock Fan</strong>
+        </p>
+        <p class="muted">Unofficial fan site. Not affiliated with OneOkRock or their label.</p>
+      </div>
+      <nav class="footer-nav">
+        <a href="about.html">About</a>
+        <a href="discography.html">Discography</a>
+        <a href="tour.html">Tour</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="socials">
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+        <a href="#">Reddit</a>
+        <a href="#">Discord</a>
+        <a href="attribution.html">Image Credits</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <small>© 2026 OneOkRock Fan · Made with ❤ by fans</small>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
